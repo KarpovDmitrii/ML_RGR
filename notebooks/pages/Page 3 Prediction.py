@@ -19,7 +19,6 @@ else:
     st.write("Датасет Rain in Australia")
     df = pd.read_csv('./data/WeatherAUS.csv')
 
-df = pd.read_csv('./data/WeatherAUS.csv')
 df.dropna(inplace=True,ignore_index=True)
 f = lambda x : str(x)[5:7]
 df['Date'] = df['Date'].transform(f)
