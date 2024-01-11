@@ -23,3 +23,6 @@
 ## Автор
 
 - Карпов Дмитрий Александрович
+
+
+https://kqw5uyrkgakkfztqjzxrgk.streamlit.app/Page_3_Prediction
