@@ -3,7 +3,5 @@ seaborn
 matplotlib
 pandas
 scikit-learn
-imblearn
-cvxopt
 tensorflow
 scipy
