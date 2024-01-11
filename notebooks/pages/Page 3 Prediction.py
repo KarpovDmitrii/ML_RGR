@@ -56,7 +56,7 @@ if button_clicked_metrics:
         stacking_model = pickle.load(file)
 
     from tensorflow.keras.models import load_model
-    nn_model = load_model('models/NN.keras')
+    nn_model = load_model('models/NN.h5')
 
 
     st.header("SVC:")
@@ -214,7 +214,7 @@ if button_clicked:
         stacking_model = pickle.load(file)
 
     from tensorflow.keras.models import load_model
-    nn_model = load_model('models/NN.keras')
+    nn_model = load_model('models/NN.h5')
 
 
     st.header("SVC:")
