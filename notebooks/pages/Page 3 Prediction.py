@@ -17,7 +17,7 @@ if uploaded_file is not None:
 
 else:
     st.write("Датасет Rain in Australia")
-    df = pd.read_csv('data/WeatherAUS.csv')
+    df = pd.read_csv('data/weatherAUS.csv')
 
 df.dropna(inplace=True,ignore_index=True)
 f = lambda x : str(x)[5:7]
