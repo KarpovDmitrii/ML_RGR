@@ -3,5 +3,5 @@ seaborn
 matplotlib
 pandas
 scikit-learn
-tensorflow
+tensorflow==2.14.0
 scipy
